@@ -1,7 +1,7 @@
 //Rubén Torres
 
 //Importaciones
-import { Edificio } from './edificio.js';
+//import { Edificio } from './edificio.js';
 import { Casa } from './casa.js';
 import { Oficina } from './oficina.js';
 
@@ -14,7 +14,7 @@ class App{
         window.onload = this.iniciar.bind(this);
     }
     iniciar(){
-        console.log(this.oficina1.nombreempresa);
+        console.log(`${this.oficina1.nombreempresa} tiene ${this.oficina1.numextintores} extintores y ${this.oficina1.numtelfs} teléfonos.`);
     }
 }
 
